@@ -3,7 +3,7 @@
 use_frameworks!
 
 target 'CocoaPodsDebug-ObjC' do
-	pod 'HockeySDK', '3.6.4'
+	pod 'HockeySDK', '3.7.0'
 end
 
 target 'CocoaPodsDebug-ObjCTests' do
