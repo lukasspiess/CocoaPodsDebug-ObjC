@@ -1,1 +1,0 @@
-/Users/lukas/Library/Developer/Xcode/DerivedData/CocoaPodsDebug-ObjC-ezfcljgqrmohurfoicwohygsuwff/Build/Products/Debug-iphonesimulator/HockeySDKResources.bundle

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61FD77CACC3D2195C02A4C28 /* libPods-CocoaPodsDebug-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACF2B0D90ACFBD0A58AA98C /* libPods-CocoaPodsDebug-ObjC.a */; };
 		80186C751B3C0BC500733F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80186C741B3C0BC500733F1A /* main.m */; };
 		80186C781B3C0BC500733F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80186C771B3C0BC500733F1A /* AppDelegate.m */; };
 		80186C7B1B3C0BC500733F1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80186C7A1B3C0BC500733F1A /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		80186C801B3C0BC500733F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80186C7F1B3C0BC500733F1A /* Images.xcassets */; };
 		80186C831B3C0BC500733F1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80186C811B3C0BC500733F1A /* LaunchScreen.xib */; };
 		80186C8F1B3C0BC500733F1A /* CocoaPodsDebug_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80186C8E1B3C0BC500733F1A /* CocoaPodsDebug_ObjCTests.m */; };
-		9C2B44885EB9A0D1873A037F /* Pods_CocoaPodsDebug_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F91A30FDFF032090477957 /* Pods_CocoaPodsDebug_ObjC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		47F91A30FDFF032090477957 /* Pods_CocoaPodsDebug_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsDebug_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACF2B0D90ACFBD0A58AA98C /* libPods-CocoaPodsDebug-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaPodsDebug-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C9F72A2EB9E4AA8BD2C905 /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsDebug-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsDebug-ObjC/Pods-CocoaPodsDebug-ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		80186C6F1B3C0BC500733F1A /* CocoaPodsDebug-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaPodsDebug-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80186C731B3C0BC500733F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C2B44885EB9A0D1873A037F /* Pods_CocoaPodsDebug_ObjC.framework in Frameworks */,
+				61FD77CACC3D2195C02A4C28 /* libPods-CocoaPodsDebug-ObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 		B9D69400C63E7794A09D1237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				47F91A30FDFF032090477957 /* Pods_CocoaPodsDebug_ObjC.framework */,
+				5ACF2B0D90ACFBD0A58AA98C /* libPods-CocoaPodsDebug-ObjC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,7 +155,6 @@
 				80186C6C1B3C0BC500733F1A /* Frameworks */,
 				80186C6D1B3C0BC500733F1A /* Resources */,
 				B07AA19223990F1AC5D5DDD7 /* Copy Pods Resources */,
-				DDE94575F5007ED209803526 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,21 +269,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaPodsDebug-ObjC/Pods-CocoaPodsDebug-ObjC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DDE94575F5007ED209803526 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaPodsDebug-ObjC/Pods-CocoaPodsDebug-ObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

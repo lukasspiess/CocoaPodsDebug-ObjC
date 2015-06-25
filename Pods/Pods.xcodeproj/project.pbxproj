@@ -7,193 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8485350F3D56EA96EAD47A06 /* Pods-CocoaPodsDebug-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA46F7A7FD3A1AF8CC02A6 /* Pods-CocoaPodsDebug-ObjC-dummy.m */; };
-		B08A6421AF317365132D08CC /* Pods-CocoaPodsDebug-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31AF67ED2EFB5E21BA537188 /* Pods-CocoaPodsDebug-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCF1376B1486F5359A192A13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD09B00CA12BAB8BCA20F951 /* Foundation.framework */; };
+		93AB3A0BD74E69FFFF25121E /* Pods-CocoaPodsDebug-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F01E717277C146F3C5C9444 /* Pods-CocoaPodsDebug-ObjC-dummy.m */; };
+		9D5A1BE8A03149E19084F0F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77A36D2F74D663B483B2607 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C11FEA48FF40B5701712FC9 /* PBXContainerItemProxy */ = {
+		B23CFFEED225808A16239521 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 10EED9778910FBF4ADD3ABC8 /* Project object */;
+			containerPortal = 5CEB2EE678E4C70A1268EA9A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 62D66EF6A7EEF6A4AFA68158;
+			remoteGlobalIDString = 518C2A35FCD637F787534C7A;
 			remoteInfo = "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CD2682425EDAFC18C3A79DD /* Pods-CocoaPodsDebug-ObjC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodsDebug-ObjC-resources.sh"; sourceTree = "<group>"; };
-		22A01D48D43B1755A1CED900 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HockeySDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		31AF67ED2EFB5E21BA537188 /* Pods-CocoaPodsDebug-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPodsDebug-ObjC-umbrella.h"; sourceTree = "<group>"; };
-		3A191D95510D87B8B7BDF1EC /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
-		524F0E8EB751CA0F61DB1AF4 /* Pods_CocoaPodsDebug_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaPodsDebug_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59AA9ACCBB69BD69FA144EE1 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		643FE83A3BF54BD041D949D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68B7D2E560A58E8D6A15599D /* Pods-CocoaPodsDebug-ObjC-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPodsDebug-ObjC-environment.h"; sourceTree = "<group>"; };
-		6BB191928DA0C63C5CF72350 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPodsDebug-ObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77D2EB49F133D5BBF7299C13 /* Pods-CocoaPodsDebug-ObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodsDebug-ObjC-frameworks.sh"; sourceTree = "<group>"; };
-		7E039DEDC83A478756C2C160 /* Pods-CocoaPodsDebug-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoaPodsDebug-ObjC.modulemap"; sourceTree = "<group>"; };
-		95997CF08CF4BAC1B10DF1FE /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsDebug-ObjC.release.xcconfig"; sourceTree = "<group>"; };
-		D2190D696BE2983D96384A41 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodsDebug-ObjC-acknowledgements.plist"; sourceTree = "<group>"; };
-		DEAA46F7A7FD3A1AF8CC02A6 /* Pods-CocoaPodsDebug-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodsDebug-ObjC-dummy.m"; sourceTree = "<group>"; };
-		E2DE2ED64D7F738FBC0495AD /* Pods-CocoaPodsDebug-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsDebug-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
-		FD09B00CA12BAB8BCA20F951 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35A704D8A174B381C4C2AB16 /* Pods-CocoaPodsDebug-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsDebug-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		5A07DEF8E7900AB289D9BDB8 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HockeySDKResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DC15E09D7EAEF3A94F74196 /* Pods-CocoaPodsDebug-ObjC-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaPodsDebug-ObjC-environment.h"; sourceTree = "<group>"; };
+		9ADF8F1BAA306A9EE8FE0E8E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F01E717277C146F3C5C9444 /* Pods-CocoaPodsDebug-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodsDebug-ObjC-dummy.m"; sourceTree = "<group>"; };
+		CD25F5F3DFBD5DDDB7064544 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodsDebug-ObjC-acknowledgements.plist"; sourceTree = "<group>"; };
+		D3D308CEFE6C7384E4140736 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-iOS/HockeySDK.embeddedframework/HockeySDK.framework"; sourceTree = "<group>"; };
+		D77A36D2F74D663B483B2607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9C503CED8A85CC6FDE479F6 /* Pods-CocoaPodsDebug-ObjC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaPodsDebug-ObjC-resources.sh"; sourceTree = "<group>"; };
+		E42B8F8D885056C5E7141616 /* libPods-CocoaPodsDebug-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaPodsDebug-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B2CF6E70015DE4AD74A401 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaPodsDebug-ObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E97E2384CE84C757D875D259 /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaPodsDebug-ObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		393B6D7CC4A4BAEA13DC6DDA /* Frameworks */ = {
+		122802AF045B5FFEFF733BAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF1376B1486F5359A192A13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A17063F71B78B518409B063 /* Frameworks */ = {
+		315942361D955232A99AF815 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5A1BE8A03149E19084F0F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2608195B6166853DA4814BB7 /* AllFeaturesLib */ = {
+		147F2C9D43AEDB28A24F81A8 /* Pods-CocoaPodsDebug-ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				D4F96D801FD4F45AE84A1E0B /* Frameworks */,
-			);
-			name = AllFeaturesLib;
-			sourceTree = "<group>";
-		};
-		4657BC2C5F0053FA11675E95 = {
-			isa = PBXGroup;
-			children = (
-				59AA9ACCBB69BD69FA144EE1 /* Podfile */,
-				8FAFEBED09014F66C0F61693 /* Frameworks */,
-				D86C33134FB25F6C020E4CD7 /* Pods */,
-				A5A7E4BD6A5EC51A3C046AB6 /* Products */,
-				77BCA962CE589CB4A4E65B80 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		654066227ED1BE9A54AB1B83 /* Pods-CocoaPodsDebug-ObjC */ = {
-			isa = PBXGroup;
-			children = (
-				643FE83A3BF54BD041D949D7 /* Info.plist */,
-				7E039DEDC83A478756C2C160 /* Pods-CocoaPodsDebug-ObjC.modulemap */,
-				6BB191928DA0C63C5CF72350 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.markdown */,
-				D2190D696BE2983D96384A41 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.plist */,
-				DEAA46F7A7FD3A1AF8CC02A6 /* Pods-CocoaPodsDebug-ObjC-dummy.m */,
-				68B7D2E560A58E8D6A15599D /* Pods-CocoaPodsDebug-ObjC-environment.h */,
-				77D2EB49F133D5BBF7299C13 /* Pods-CocoaPodsDebug-ObjC-frameworks.sh */,
-				1CD2682425EDAFC18C3A79DD /* Pods-CocoaPodsDebug-ObjC-resources.sh */,
-				31AF67ED2EFB5E21BA537188 /* Pods-CocoaPodsDebug-ObjC-umbrella.h */,
-				E2DE2ED64D7F738FBC0495AD /* Pods-CocoaPodsDebug-ObjC.debug.xcconfig */,
-				95997CF08CF4BAC1B10DF1FE /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */,
+				E4B2CF6E70015DE4AD74A401 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.markdown */,
+				CD25F5F3DFBD5DDDB7064544 /* Pods-CocoaPodsDebug-ObjC-acknowledgements.plist */,
+				9F01E717277C146F3C5C9444 /* Pods-CocoaPodsDebug-ObjC-dummy.m */,
+				5DC15E09D7EAEF3A94F74196 /* Pods-CocoaPodsDebug-ObjC-environment.h */,
+				D9C503CED8A85CC6FDE479F6 /* Pods-CocoaPodsDebug-ObjC-resources.sh */,
+				35A704D8A174B381C4C2AB16 /* Pods-CocoaPodsDebug-ObjC.debug.xcconfig */,
+				E97E2384CE84C757D875D259 /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */,
 			);
 			name = "Pods-CocoaPodsDebug-ObjC";
 			path = "Target Support Files/Pods-CocoaPodsDebug-ObjC";
 			sourceTree = "<group>";
 		};
-		77BCA962CE589CB4A4E65B80 /* Targets Support Files */ = {
+		20419ECC06FE734D12A250D7 = {
 			isa = PBXGroup;
 			children = (
-				654066227ED1BE9A54AB1B83 /* Pods-CocoaPodsDebug-ObjC */,
+				9ADF8F1BAA306A9EE8FE0E8E /* Podfile */,
+				A7971C648C3536352D9C2C32 /* Frameworks */,
+				2832BC3D0867C5560B0BEDEB /* Pods */,
+				A3F18B0E43D30619AAD420CC /* Products */,
+				F61EE0AADCE477BD2B8DD0C8 /* Targets Support Files */,
 			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7A0000F626F0838B94D3722A /* HockeySDK */ = {
+		2832BC3D0867C5560B0BEDEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2608195B6166853DA4814BB7 /* AllFeaturesLib */,
-			);
-			path = HockeySDK;
-			sourceTree = "<group>";
-		};
-		8FAFEBED09014F66C0F61693 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C91889F20F9197304B1000D8 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A5A7E4BD6A5EC51A3C046AB6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				22A01D48D43B1755A1CED900 /* HockeySDKResources.bundle */,
-				524F0E8EB751CA0F61DB1AF4 /* Pods_CocoaPodsDebug_ObjC.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C91889F20F9197304B1000D8 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FD09B00CA12BAB8BCA20F951 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D4F96D801FD4F45AE84A1E0B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3A191D95510D87B8B7BDF1EC /* HockeySDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D86C33134FB25F6C020E4CD7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7A0000F626F0838B94D3722A /* HockeySDK */,
+				96FEDB9396F7D3074EBDBAA2 /* HockeySDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F3669B7531FF01B00C2C997 /* AllFeaturesLib */ = {
+			isa = PBXGroup;
+			children = (
+				BBBD18CA86563F443B82D675 /* Frameworks */,
+			);
+			name = AllFeaturesLib;
+			sourceTree = "<group>";
+		};
+		96FEDB9396F7D3074EBDBAA2 /* HockeySDK */ = {
+			isa = PBXGroup;
+			children = (
+				7F3669B7531FF01B00C2C997 /* AllFeaturesLib */,
+			);
+			path = HockeySDK;
+			sourceTree = "<group>";
+		};
+		A3F18B0E43D30619AAD420CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A07DEF8E7900AB289D9BDB8 /* HockeySDKResources.bundle */,
+				E42B8F8D885056C5E7141616 /* libPods-CocoaPodsDebug-ObjC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7971C648C3536352D9C2C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E740771A306135CD68AAEF1E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBBD18CA86563F443B82D675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D308CEFE6C7384E4140736 /* HockeySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E740771A306135CD68AAEF1E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D77A36D2F74D663B483B2607 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F61EE0AADCE477BD2B8DD0C8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				147F2C9D43AEDB28A24F81A8 /* Pods-CocoaPodsDebug-ObjC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		7EA51083823FFB8A101A0664 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B08A6421AF317365132D08CC /* Pods-CocoaPodsDebug-ObjC-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		12A6BB543D354A67B77BFA57 /* Pods-CocoaPodsDebug-ObjC */ = {
+		518C2A35FCD637F787534C7A /* Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A253814604C73B72063C5263 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC" */;
+			buildConfigurationList = D248E4E9D01677DC1F19B371 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources" */;
 			buildPhases = (
-				1184DC9265261D401FAE7BCF /* Sources */,
-				393B6D7CC4A4BAEA13DC6DDA /* Frameworks */,
-				7EA51083823FFB8A101A0664 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				364587CE5044979101B9A2CD /* PBXTargetDependency */,
-			);
-			name = "Pods-CocoaPodsDebug-ObjC";
-			productName = "Pods-CocoaPodsDebug-ObjC";
-			productReference = 524F0E8EB751CA0F61DB1AF4 /* Pods_CocoaPodsDebug_ObjC.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		62D66EF6A7EEF6A4AFA68158 /* Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB68FDCA0A641723A2A85444 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources" */;
-			buildPhases = (
-				7CBC994D73900A6A63A92946 /* Sources */,
-				7A17063F71B78B518409B063 /* Frameworks */,
-				E156AEBA7C1223304B04C74F /* Resources */,
+				C4E6EBD7F34F336DE5C1A240 /* Sources */,
+				122802AF045B5FFEFF733BAB /* Frameworks */,
+				C8447095EC5600F883DBCD80 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -201,37 +163,54 @@
 			);
 			name = "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources";
 			productName = "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources";
-			productReference = 22A01D48D43B1755A1CED900 /* HockeySDKResources.bundle */;
+			productReference = 5A07DEF8E7900AB289D9BDB8 /* HockeySDKResources.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		7E18C93B346EA05C0E741E70 /* Pods-CocoaPodsDebug-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CD21E8F05D5554522A7B57 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC" */;
+			buildPhases = (
+				FFECCBFB10BA1116BD645CD2 /* Sources */,
+				315942361D955232A99AF815 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8F763FCCFE934D6F8729D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaPodsDebug-ObjC";
+			productName = "Pods-CocoaPodsDebug-ObjC";
+			productReference = E42B8F8D885056C5E7141616 /* libPods-CocoaPodsDebug-ObjC.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		10EED9778910FBF4ADD3ABC8 /* Project object */ = {
+		5CEB2EE678E4C70A1268EA9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 32C4E0B85677C2FE18E749F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = B6F641FF1811F4B9D226EFFC /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4657BC2C5F0053FA11675E95;
-			productRefGroup = A5A7E4BD6A5EC51A3C046AB6 /* Products */;
+			mainGroup = 20419ECC06FE734D12A250D7;
+			productRefGroup = A3F18B0E43D30619AAD420CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12A6BB543D354A67B77BFA57 /* Pods-CocoaPodsDebug-ObjC */,
-				62D66EF6A7EEF6A4AFA68158 /* Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources */,
+				7E18C93B346EA05C0E741E70 /* Pods-CocoaPodsDebug-ObjC */,
+				518C2A35FCD637F787534C7A /* Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E156AEBA7C1223304B04C74F /* Resources */ = {
+		C8447095EC5600F883DBCD80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,34 +220,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1184DC9265261D401FAE7BCF /* Sources */ = {
+		C4E6EBD7F34F336DE5C1A240 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8485350F3D56EA96EAD47A06 /* Pods-CocoaPodsDebug-ObjC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CBC994D73900A6A63A92946 /* Sources */ = {
+		FFECCBFB10BA1116BD645CD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AB3A0BD74E69FFFF25121E /* Pods-CocoaPodsDebug-ObjC-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		364587CE5044979101B9A2CD /* PBXTargetDependency */ = {
+		CD8F763FCCFE934D6F8729D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources";
-			target = 62D66EF6A7EEF6A4AFA68158 /* Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources */;
-			targetProxy = 0C11FEA48FF40B5701712FC9 /* PBXContainerItemProxy */;
+			target = 518C2A35FCD637F787534C7A /* Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources */;
+			targetProxy = B23CFFEED225808A16239521 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E76768D07F2EE009FF28DC6 /* Release */ = {
+		28B8FBA37C48B71D420BE6A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,48 +281,7 @@
 			};
 			name = Release;
 		};
-		72446736711E5E06239355A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95997CF08CF4BAC1B10DF1FE /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CocoaPodsDebug-ObjC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CocoaPodsDebug-ObjC/Pods-CocoaPodsDebug-ObjC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CocoaPodsDebug_ObjC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8D84BD7F59F337BF032874F0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CocoaPodsDebug-ObjC";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = HockeySDKResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D781A13DCFA3FF4483168562 /* Debug */ = {
+		2F49E50BA7DD9DACFC8A2BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,10 +320,20 @@
 			};
 			name = Debug;
 		};
-		F42275FB5B231BE7F1781A5D /* Release */ = {
+		4DC3727077D98D8AC453F25C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-CocoaPodsDebug-ObjC";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HockeySDKResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		71C850C248E035129B57A897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = HockeySDKResources;
 				SDKROOT = iphoneos;
@@ -394,66 +342,69 @@
 			};
 			name = Release;
 		};
-		F54F993E95DDB340259A2161 /* Debug */ = {
+		9D353B5855C0D1611199EA92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2DE2ED64D7F738FBC0495AD /* Pods-CocoaPodsDebug-ObjC.debug.xcconfig */;
+			baseConfigurationReference = E97E2384CE84C757D875D259 /* Pods-CocoaPodsDebug-ObjC.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CocoaPodsDebug-ObjC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-CocoaPodsDebug-ObjC/Pods-CocoaPodsDebug-ObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B6BAAFCCD5BA9DD41665E349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A704D8A174B381C4C2AB16 /* Pods-CocoaPodsDebug-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_CocoaPodsDebug_ObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32C4E0B85677C2FE18E749F9 /* Build configuration list for PBXProject "Pods" */ = {
+		45CD21E8F05D5554522A7B57 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D781A13DCFA3FF4483168562 /* Debug */,
-				1E76768D07F2EE009FF28DC6 /* Release */,
+				B6BAAFCCD5BA9DD41665E349 /* Debug */,
+				9D353B5855C0D1611199EA92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A253814604C73B72063C5263 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC" */ = {
+		B6F641FF1811F4B9D226EFFC /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F54F993E95DDB340259A2161 /* Debug */,
-				72446736711E5E06239355A0 /* Release */,
+				2F49E50BA7DD9DACFC8A2BF4 /* Debug */,
+				28B8FBA37C48B71D420BE6A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB68FDCA0A641723A2A85444 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources" */ = {
+		D248E4E9D01677DC1F19B371 /* Build configuration list for PBXNativeTarget "Pods-CocoaPodsDebug-ObjC-HockeySDK-HockeySDKResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D84BD7F59F337BF032874F0 /* Debug */,
-				F42275FB5B231BE7F1781A5D /* Release */,
+				4DC3727077D98D8AC453F25C /* Debug */,
+				71C850C248E035129B57A897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 10EED9778910FBF4ADD3ABC8 /* Project object */;
+	rootObject = 5CEB2EE678E4C70A1268EA9A /* Project object */;
 }
